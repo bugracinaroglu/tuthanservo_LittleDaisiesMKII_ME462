@@ -8,7 +8,7 @@ except ImportError:
     import select
 
 
-SERVO_PIN = 28
+SERVO_PIN = 16
 
 FREQ = 50
 MIN_US = 500

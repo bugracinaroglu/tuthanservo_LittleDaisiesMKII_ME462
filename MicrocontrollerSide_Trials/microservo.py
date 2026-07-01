@@ -1,7 +1,7 @@
 from machine import Pin, PWM
 
 # Servo signal pin
-SERVO_PIN = 28
+SERVO_PIN = 16
 
 # Onboard LED
 led = Pin("LED", Pin.OUT)

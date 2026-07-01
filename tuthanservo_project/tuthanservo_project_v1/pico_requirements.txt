@@ -1,0 +1,6 @@
+# This is a MicroPython package, so it is NOT installed with pip.
+# Install it to the connected Pico W/Pico 2 W using:
+#
+# mpremote mip install umqtt.simple
+
+umqtt.simple

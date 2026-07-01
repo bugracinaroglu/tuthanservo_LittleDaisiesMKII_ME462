@@ -190,15 +190,15 @@ def read_command():
 # =====================================================
 
 left_servo = ServoController(
-    pin=13,
-    max_angle=270,
-    neutral_angle=135
+    pin=16,
+    max_angle=180,
+    neutral_angle=85
 )
 
 right_servo = ServoController(
-    pin=12,
-    max_angle=270,
-    neutral_angle=135
+    pin=17,
+    max_angle=180,
+    neutral_angle=100
 )
 
 gripper = GripperController(

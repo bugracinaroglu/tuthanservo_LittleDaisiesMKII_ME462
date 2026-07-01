@@ -1,0 +1,5 @@
+# Host computer / Raspberry Pi packages.
+# Install with: python3 -m pip install -r requirements.txt
+
+mpremote
+paho-mqtt>=2.1,<3

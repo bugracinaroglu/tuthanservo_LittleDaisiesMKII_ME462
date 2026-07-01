@@ -62,7 +62,7 @@ class FSR:
 # =====================================================
 
 fsr = FSR(
-    pin=26,
+    pin=27,
     threshold=15000,
     window_size=10,
     active_high=True
