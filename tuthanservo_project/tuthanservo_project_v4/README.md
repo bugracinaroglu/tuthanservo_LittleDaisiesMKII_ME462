@@ -101,6 +101,33 @@ Do not power the servos from the Pico 3.3 V pin. Use a suitable external servo s
 
 
 
+## Normal Usage Sequence
+
+For the initial setup:
+
+```bash
+./setup_host.sh
+```
+
+To check the system:
+
+```bash
+./check_system.sh
+```
+
+For daily use:
+
+```bash
+./run_gripper.sh
+```
+
+When you change the Pico code:
+
+```bash
+./upload_to_pico.sh
+```
+
+
 
 # To initialize directly
 
